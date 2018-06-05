@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="2741" started-at="2018-06-03T06:43:37Z" finished-at="2018-06-03T06:43:39Z">
+  <suite name="Default suite" duration-ms="6077" started-at="2018-06-04T18:23:40Z" finished-at="2018-06-04T18:23:46Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="2741" started-at="2018-06-03T06:43:37Z" finished-at="2018-06-03T06:43:39Z">
-      <class name="UpdateCommentJira">
-        <test-method status="PASS" signature="postData()[pri:0, instance:UpdateCommentJira@457e2f02]" name="postData" duration-ms="2701" started-at="2018-06-03T06:43:37Z" finished-at="2018-06-03T06:43:39Z">
+    <test name="Default test" duration-ms="6077" started-at="2018-06-04T18:23:40Z" finished-at="2018-06-04T18:23:46Z">
+      <class name="Twitter.CreateAndDeleteTweet">
+        <test-method status="PASS" signature="DeleteTweet()[pri:0, instance:Twitter.CreateAndDeleteTweet@29ee9faa]" name="DeleteTweet" duration-ms="6040" started-at="2018-06-04T18:23:40Z" finished-at="2018-06-04T18:23:46Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- postData -->
-      </class> <!-- UpdateCommentJira -->
+        </test-method> <!-- DeleteTweet -->
+      </class> <!-- Twitter.CreateAndDeleteTweet -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
