@@ -12,6 +12,7 @@ Rest-api-automation-testing-rest-assured
     401-unuthorized</br>
     402-payment required</br>
     403-forbidden</br>
+    404-NotFound</br>
     415-unsupported media type</br>
 #### 5x-server error</br>
 500- internal server error</br>
