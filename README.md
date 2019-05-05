@@ -17,3 +17,4 @@ Rest-api-automation-testing-rest-assured
 #### 5x-server error</br>
 500- internal server error</br>
 502-bad gateway</br>
+![webservicevsapi](https://user-images.githubusercontent.com/24494133/57190744-b318a080-6f3b-11e9-988a-75337cd47ff5.PNG)
