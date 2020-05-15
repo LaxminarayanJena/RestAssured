@@ -25,4 +25,7 @@ Rest-api-automation-testing-rest-assured
 Assert.assertTrue(response.getTimeIn(TimeUnit.SeECONDS)<=10,"Response Time is not within limit");</br>
 then().assertThat().statusCode(200).and().contentType(ContentType.JSON) .and(). </br>
 		body("status",equalTo("OK") .and().header("Server","Cloudfare");
+
+import org.hamcrest.core.Is
+then().assertThat().body("[PostOffice.Name[0]", Is.is("Electronics City")).log.all()
 ```
