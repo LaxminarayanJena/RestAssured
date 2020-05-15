@@ -20,3 +20,7 @@ Rest-api-automation-testing-rest-assured
 ![webservicevsapi](https://user-images.githubusercontent.com/24494133/57190744-b318a080-6f3b-11e9-988a-75337cd47ff5.PNG)
 ![soap vs rest](https://user-images.githubusercontent.com/24494133/81675213-1224c580-946c-11ea-97be-bae0c3d3f939.PNG)
 
+#### Validation in restassured=  response,status code,header ,responsetime,contentType
+Assert.assertTrue(response.getTimeIn(TimeUnit.SeECONDS)<=10,"Response Time is not within limit");</br>
+then().assertThat().statusCode(200).and().contentType(ContentType.JSON) .and(). </br>
+		body("status",equalTo("OK") .and().header("Server","Cloudfare");
