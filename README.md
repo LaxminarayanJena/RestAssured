@@ -29,3 +29,23 @@ then().assertThat().statusCode(200).and().contentType(ContentType.JSON) .and(). 
 import org.hamcrest.core.Is
 then().assertThat().body("[PostOffice.Name[0]", Is.is("Electronics City")).log.all()
 ```
+books[1].isbn </br>
+
+books[?(@.isbn == 9781593275846)]
+```
+{
+  "books": [
+    {
+      "isbn": "9781593275846",
+      "title": "Eloquent JavaScript, Second Edition"
+},
+    {
+      "isbn": "9781449331818",
+      "title": "Learning JavaScript Design Patterns"
+    }
+               
+            ]
+
+}
+
+```
