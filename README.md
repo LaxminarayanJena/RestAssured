@@ -49,3 +49,21 @@ books[?(@.isbn == 9781593275846)]
 }
 
 ```
+#### Hard Assertion
+```
+.then()
+.statusCode(200)
+.body("user.name", hasItem("RestAPI Automation"))
+.body("entities.hashtags[0].text", hasItem("multiple1"))
+.body("entities.hashtags[0].size()", equalTo(3))
+.body("entities.hashtags[1].size()", lessThan(2));
+```
+#### Soft Assertion
+```
+.then()
+.statusCode(200)
+.body("user.name", hasItem("RestAPI Automation"))
+.body("entities.hashtags[0].text", hasItem("multiple1"),
+"entities.hashtags[0].size()", equalTo(3),
+"entities.hashtags[1].size()", lessThan(2));
+```
