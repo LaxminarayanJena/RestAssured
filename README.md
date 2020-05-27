@@ -17,6 +17,7 @@ Rest-api-automation-testing-rest-assured
 #### 5x-server error</br>
 500- internal server error</br>
 502-bad gateway</br>
+</br>
 get,put,delete-idempotent (safely repeatable) </br>
 post- non idempotent </br>
 </br>
