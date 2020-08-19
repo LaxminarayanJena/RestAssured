@@ -6,7 +6,7 @@ Rest is stateless because each request must contain all of the information neces
 get,put,delete-idempotent (safely repeatable) </br>
 post- non idempotent </br>
 </br>
-
+io rest assured -4.3.1 19th aug -2020
 ### Status Codes
 #### 1x-informational </br>
 #### 2x-success 
